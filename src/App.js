@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Header from './components/Header';
-import Dashboard from './pages/Dashboard';
-import Login from './pages/Login';
-import SignUp from './pages/SignUp';
+import Header from './containers/components/Header';
+import Dashboard from './containers/pages/Dashboard';
+import Login from './containers/pages/Login';
+import SignUp from './containers/pages/SignUp';
 
 function App() {
   return (
